@@ -1,0 +1,30 @@
+.uk-card {
+  background-color: #313131;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(29, 29, 29);
+  border-radius: 5px;
+  height: 4em;
+  width: 17em;
+  margin-left: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.allPay{
+  width: 11em;
+  margin-left: 500px;
+}
+.uk-card-title {
+  font-size: 12pt;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .uk-card {
+    width: 25em;
+    height: 15em;
+  }
+}
